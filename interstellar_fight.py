@@ -222,7 +222,7 @@ while True:
         if event.type == KEYDOWN:
             #-Menu
             if event.key == K_q:
-                if counter_menu == False:
+                if counter_menu == False and counter_end == False:
                     counter_menu = True
                 else:
                     counter_menu = False
